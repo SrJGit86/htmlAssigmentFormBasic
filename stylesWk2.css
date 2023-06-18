@@ -1,134 +1,134 @@
-    .logo {
-        width: 50%;
-    }
-    
-    .baroption {
-        width: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .baroption div {
-        font-size: 120%;
-        display: flex;
-        align-items: center;
-        height: 70%;
-        padding: 1%;
-    }
-    
-    div {
-        display: block;
-    }
-    
-    nav {
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        height: 4rem;
-        position: fixed;
-        background-color: peru;
-        z-index: 2;
-    }
-    
-    img {
-        overflow-clip-margin: content-box;
-        overflow: clip;
-    }
-    
-    #noti-fication {
-        position: absolute;
-        top: 90%;
-        left: 65%;
-        display: none;
-    }
-    
-    p {
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0em;
-        margin-inline-end: 0em;
-    }
-    
-    .area1 {
-        display: flex;
-        position: relative;
-        top: 4rem;
-    }
-    
-    .description {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .description div {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
-    
-    .description div h2 {
-        display: block;
-        font-size: 1.5em;
-        margin-block-start: 0.83em;
-        margin-block-end: 0.83em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-    }
-    
-    .profile {
-        width: 50%;
-    }
-    
-    .profile i:hover {
-        color: gray;
-    }
-    
-    .area2 {
-        position: relative;
-        top: 4rem;
-        background-color: gray;
-        padding: 4%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .area2 button {
-        border: none;
-        padding: 1%;
-        font-size: 110%;
-        color: black;
-        margin: 2%;
-        border-radius: 5px;
-    }
-    
-    footer {
-        position: relative;
-        top: 4rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: cadetblue;
-    }
-    
-    footer div {
-        text-align: center;
-        color: wheat;
-    }
-    
-    h4 {
-        display: block;
-        margin-block-start: 1.33em;
-        margin-block-end: 1.33em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-    }
-    
-    body {
-        margin: 0%;
-    }
+.logo {
+    width: 50%;
+}
+
+.baroption {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.baroption div {
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+    height: 70%;
+    padding: 1%;
+}
+
+div {
+    display: block;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 4rem;
+    position: fixed;
+    background-color: peru;
+    z-index: 2;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#noti-fication {
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    display: none;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+}
+
+.area1 {
+    display: flex;
+    position: relative;
+    top: 4rem;
+}
+
+.description {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.description div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.description div h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.profile {
+    width: 50%;
+}
+
+.profile i:hover {
+    color: gray;
+}
+
+.area2 {
+    position: relative;
+    top: 4rem;
+    background-color: gray;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area2 button {
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+footer {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+footer div {
+    text-align: center;
+    color: wheat;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body {
+    margin: 0%;
+}
