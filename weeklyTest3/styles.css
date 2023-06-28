@@ -1,5 +1,6 @@
 body {
     font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
 }
 
 * {
@@ -15,21 +16,22 @@ body {
 
 .logo {
     float: left;
-    padding: 5px;
-    margin-left: 60px;
+    padding: 10px;
+    margin-left: 65px;
 }
 
 .logo img {
-    height: 25px;
-    width: 125px;
+    height: 24px;
+    width: 110px;
+    margin-top: 3px;
 }
 
 .nav1Half {
-    width: 60%;
+    width: 65%;
     text-align: center;
-    margin-left: -8em;
+    margin-left: -220px;
     padding-left: 0;
-    padding-top: 5px;
+    padding-top: 10px;
     line-height: 2em;
 }
 
@@ -65,7 +67,7 @@ body {
 .partOne {
     /* display: flex; */
     position: relative;
-    /* margin-bottom: ; */
+    margin-top: 10px;
 }
 
 .withImg {
@@ -151,10 +153,229 @@ body {
     display: flex;
     margin-top: 4em;
     justify-content: center;
+    margin: 0 30px 0 30px;
+    padding: 0 30px 0 30px;
 }
 
 .withImgThree {
     display: flex;
     flex-direction: column;
     text-decoration: none;
+    padding: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.withImgThree span {
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+.withImgThree p {
+    color: black;
+}
+
+.withImgThree h4 {
+    margin-top: 25px;
+    color: #0067b8;
+    font-weight: 500;
+}
+
+.partFour {
+    /* display: flex; */
+    position: relative;
+    margin-top: 10px;
+}
+
+.withImgFour {
+    position: absolute;
+    width: 30%;
+    margin-left: 11em;
+    margin-top: 19em;
+}
+
+.withImgFour span {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.withImgFour p {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 99%;
+}
+
+.withImgFour div button {
+    width: 42%;
+    height: 40px;
+    background-color: #0067b8;
+    border: none;
+    border-radius: 5%;
+}
+
+.withImgFour div button a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-weight: 600;
+}
+
+.partFour img {
+    float: left;
+    margin: 40px 20px 60px 20px;
+    padding: 60px 0 60px 30px;
+}
+
+#headFive {
+    font-weight: 500;
+    margin-left: -12px;
+}
+
+
+/* .headfive h1 {
+     text-align: cente 
+    margin-left: 48px;
+     padding-left: 30px;
+ }  */
+
+.partFive {
+    margin: 2em 30px 0 30px;
+    padding: 0 30px 0 30px;
+}
+
+.subPartFive {
+    display: flex;
+    justify-content: center;
+}
+
+.withImgFive {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 12px;
+}
+
+
+/* a {
+    text-decoration: none;
+} */
+
+.withImgFive span {
+    padding: 10px 0 10px 0;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+.withImgFive p {
+    color: black;
+}
+
+.withImgFive h4 {
+    margin-top: 25px;
+    color: #0067b8;
+    font-weight: 500;
+}
+
+.social {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+.social a {
+    font-size: 30px;
+    margin-left: 20px;
+    color: black;
+}
+
+.social p {
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.backTop {
+    float: right;
+    /* position: fixed; */
+    margin-bottom: 2em;
+}
+
+.backTop button {
+    width: 122px;
+    height: 40px;
+    border: none;
+    background-color: rgb(224, 223, 223);
+    border-radius: 5%;
+}
+
+.backTop button a {
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: rgb(245, 244, 244);
+    padding: 35px 50px 30px 70px;
+}
+
+.footBox1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footOpt {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 30px; */
+}
+
+.footOpt a {
+    font-size: 12px;
+    margin-bottom: 15px;
+    /* color: rgb(59, 59, 59); */
+    color: gray;
+    white-space: nowrap;
+}
+
+.footOpt h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: rgb(80, 79, 79);
+    font-weight: 500;
+}
+
+.footBox2 {
+    margin-top: 50px;
+    display: flex;
+}
+
+.finalPart1 {
+    float: left;
+    font-size: 12px;
+}
+
+.finalPart2 {
+    float: right;
+    font-size: 12px;
+}
+
+.finalPart1 a {
+    margin-right: 20px;
+    color: gray;
+}
+
+.finalPart2 a {
+    margin-right: 20px;
+    color: gray;
 }
